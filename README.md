@@ -1,1 +1,179 @@
-# ai-copilot-privacy
+# ai-copilot-privacy[privacy-policy.html](https://github.com/user-attachments/files/24416900/privacy-policy.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - AI Form Copilot</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      color: #333;
+    }
+    h1 {
+      color: #667eea;
+      border-bottom: 3px solid #667eea;
+      padding-bottom: 10px;
+    }
+    h2 {
+      color: #4a5568;
+      margin-top: 30px;
+    }
+    h3 {
+      color: #667eea;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background: #667eea;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background: #f9f9f9;
+    }
+    .updated {
+      color: #666;
+      font-style: italic;
+    }
+    .contact {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <h2>AI Form Copilot - Insurance Edition</h2>
+  <p class="updated"><strong>Last Updated:</strong> January 3, 2026</p>
+
+  <h2>Overview</h2>
+  <p>AI Form Copilot ("the Extension") is a browser extension developed by E&L Insurance Services, Inc. for internal use by insurance professionals. This privacy policy explains how the Extension handles data.</p>
+
+  <h2>Data Collection</h2>
+  
+  <h3>What We DON'T Collect</h3>
+  <ul>
+    <li>The Extension does not collect, store, or transmit any personal information</li>
+    <li>The Extension does not track browsing history</li>
+    <li>The Extension does not use analytics or tracking cookies</li>
+    <li>The Extension does not sell or share any data with third parties</li>
+  </ul>
+
+  <h3>What the Extension Accesses</h3>
+  <p>The Extension accesses:</p>
+  <ol>
+    <li><strong>Carrier Websites:</strong> Only when you click "Fill FAO" or "Fill GEICO" buttons</li>
+    <li><strong>Your Agency's CRM Server:</strong> To fetch client data for form filling</li>
+    <li><strong>Form Fields:</strong> To automatically fill insurance quote forms</li>
+  </ol>
+
+  <h3>Data Flow</h3>
+  <ol>
+    <li>You enter a submission ID or search for a client</li>
+    <li>The Extension requests data from your agency's secure CRM server</li>
+    <li>The CRM server authenticates and returns client/driver/vehicle data</li>
+    <li>The Extension fills form fields on the carrier website</li>
+    <li>No data is stored in the Extension after the browser tab is closed</li>
+  </ol>
+
+  <h2>Data Storage</h2>
+  
+  <h3>Local Storage</h3>
+  <p>The Extension stores only:</p>
+  <ul>
+    <li>Your server URL (for connecting to your agency's CRM)</li>
+    <li>Your name and email (for identification within your team)</li>
+    <li>Temporary session data (cleared when you close the browser)</li>
+  </ul>
+
+  <h3>No Cloud Storage</h3>
+  <p>The Extension does not store any client, driver, or vehicle information in the cloud or on any external servers beyond your agency's CRM.</p>
+
+  <h2>Third-Party Services</h2>
+  <p>The Extension connects to:</p>
+  <ol>
+    <li><strong>Your Agency's CRM Server</strong> - Managed by your agency administrator</li>
+    <li><strong>Insurance Carrier Websites</strong> - Progressive FAO, GEICO (only when filling forms)</li>
+  </ol>
+  
+  <p>The Extension does NOT connect to:</p>
+  <ul>
+    <li>Analytics services</li>
+    <li>Advertising networks</li>
+    <li>Social media platforms</li>
+    <li>Any other third-party services</li>
+  </ul>
+
+  <h2>Security</h2>
+  <ul>
+    <li>All communication with your CRM server uses HTTPS encryption</li>
+    <li>CRM authentication credentials are stored server-side, never in the browser</li>
+    <li>The Extension only activates when you explicitly click buttons</li>
+  </ul>
+
+  <h2>Permissions Explained</h2>
+  <table>
+    <tr>
+      <th>Permission</th>
+      <th>Why It's Needed</th>
+    </tr>
+    <tr>
+      <td><code>activeTab</code></td>
+      <td>To fill form fields on the current carrier website</td>
+    </tr>
+    <tr>
+      <td><code>storage</code></td>
+      <td>To save your server URL and preferences locally</td>
+    </tr>
+    <tr>
+      <td><code>scripting</code></td>
+      <td>To inject the form-filling script into carrier pages</td>
+    </tr>
+    <tr>
+      <td><code>host_permissions</code></td>
+      <td>To work on any carrier website</td>
+    </tr>
+  </table>
+
+  <h2>Children's Privacy</h2>
+  <p>This Extension is intended for professional use by licensed insurance agents and is not designed for use by children under 13.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this privacy policy from time to time. Any changes will be reflected in the "Last Updated" date above.</p>
+
+  <div class="contact">
+    <h2>Contact</h2>
+    <p>For questions about this privacy policy or the Extension:</p>
+    <p>
+      <strong>E&L Insurance Services, Inc.</strong><br>
+      1241 SW 27th Avenue<br>
+      Miami, FL 33135<br>
+      Email: <a href="mailto:eruiz@eandlinsurance.com">eruiz@eandlinsurance.com</a><br>
+      Phone: (305) 322-2252
+    </p>
+  </div>
+
+  <h2>Consent</h2>
+  <p>By installing and using the Extension, you consent to this privacy policy.</p>
+</body>
+</html>
